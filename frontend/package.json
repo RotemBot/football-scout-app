@@ -29,24 +29,25 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "vue": "^3.3.11",
-    "vue-router": "^4.2.5",
-    "pinia": "^2.1.7",
-    "axios": "^1.6.2",
-    "socket.io-client": "^4.7.4",
     "@headlessui/vue": "^1.7.16",
     "@heroicons/vue": "^2.0.18",
+    "@vueuse/components": "^10.7.0",
+    "@vueuse/core": "^10.7.0",
+    "axios": "^1.6.2",
     "chart.js": "^4.4.0",
-    "vue-chartjs": "^5.2.0",
     "date-fns": "^2.30.0",
     "lodash-es": "^4.17.21",
+    "pinia": "^2.1.7",
+    "socket.io-client": "^4.7.4",
     "uuid": "^9.0.1",
     "vee-validate": "^4.12.2",
-    "yup": "^1.4.0",
-    "@vueuse/core": "^10.7.0",
-    "@vueuse/components": "^10.7.0"
+    "vue": "^3.3.11",
+    "vue-chartjs": "^5.2.0",
+    "vue-router": "^4.2.5",
+    "yup": "^1.4.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.40.1",
     "@types/lodash-es": "^4.17.12",
     "@types/node": "^20.10.4",
     "@types/uuid": "^9.0.7",
@@ -66,10 +67,10 @@
     "typescript": "^5.3.3",
     "vite": "^5.0.10",
     "vitest": "^1.0.4",
-    "vue-tsc": "^1.8.25",
-    "@playwright/test": "^1.40.1"
+    "vue-tsc": "^1.8.25"
   },
   "engines": {
     "node": ">=18.0.0"
-  }
-} 
+  },
+  "packageManager": "yarn@4.4.0+sha512.91d93b445d9284e7ed52931369bc89a663414e5582d00eea45c67ddc459a2582919eece27c412d6ffd1bd0793ff35399381cb229326b961798ce4f4cc60ddfdb"
+}
